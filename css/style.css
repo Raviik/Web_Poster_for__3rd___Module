@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale&display=swap&subset=cyrillic,cyrillic-ext');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Kurale', serif;
+}
+
+body {
+    /* width: 1; */
+    background-color: #202060;
+}
+
+.container {
+    position: relative;
+    background-color: #202060;
+    width: 1440px;
+    min-height: 900px;
+}   
+
+.title {
+    text-align: center;
+    font-size: 72px;
+    color: #FFDB13;
+    line-height: 106px;
+}
+
+.man-sitting-on_chair {
+    position: absolute;
+    top: 124px;
+    left: 127px;
+}
+
+.yellow-card_ilgiosso {
+    position: absolute; 
+    top: 123px;
+    left: 417px;
+}
+
+.main_magic__ball {
+    position: absolute;
+    top: 114px;
+    left: 640px;
+}
+
+.magic_wand_1 {
+    position: absolute;
+    top: 122px;
+    left: 808px; 
+}
+
+.star {
+    position: absolute;
+    top: 235px;
+    left: 911px; 
+}
+
+.magic_wand_2 {
+    position: absolute;
+    top: 131px;
+    left: 1014px;
+}
+
+.red-card_ilmago {
+    position: absolute;
+    top: 117px;
+    left: 1195px;
+}
+
+.rabbit-for_hat {
+    position: absolute;
+    top: 288px;
+    left: 480px;
+    z-index: 99;
+}
+
+.hat-for_rabbit {
+    position: absolute;
+    top: 380px;
+    left: 434px;
+}
+
+.blue-card-lomagia {
+    position: absolute;
+    top: 347px;
+    left: 724px;
+}
+
+.hat-for_ears {
+    position: absolute;
+    top: 433px;
+    left: 885px;
+}
+
+.ears-for_hat {
+    position: absolute;
+    top: 373px;
+    left: 930px;
+}
+
+.hat-for_dove {
+    position: absolute;
+    top: 278px;
+    left: 1056px;
+}
+
+.dove-for_hat {
+    position: absolute;
+    top: 241px;
+    left: 1085px;
+}
+
+.hat-for-magic_broom {
+    position: absolute;
+    top: 534px;
+    left: 578px;
+}
+
+.magic-broom-for_hat {
+    position: absolute;
+    top: 514px;
+    left: 644px;
+}
+
+.white-card-imperro {
+    position: absolute;
+    top: 701px;
+    left: 706px;
+}
+
+.hat-for_rabbit__2 {
+    position: absolute;
+    top: 570px;
+    left: 827px;
+}
+
+.rabbit-for_hat__2 {
+    position: absolute;
+    top: 633px;
+    left: 862px;
+}
+
+.boy-without_hat {
+    position: absolute;
+    top: 543px;
+    left: 1063px;
+}
+
+.hat-of-boy {
+    position: absolute;
+    left: 1096px;
+    top: 444px;
+}
+
+.chair-for_man {
+    position: absolute;
+    left: 179px;
+    top: 340px;
+    /* display: none; */
+    transition: 2s ease-in;
+    opacity: 0;
+}
+
+.appearance_of__chair {
+    /* display: block; */
+    opacity: 1;
+}
+
+.box-for_women {
+    position: absolute;
+    top: 834px;
+    left: 122px;
+}
+
+.legs-for_box {
+    position: absolute;
+    top: 834px;
+    left: 487px;
+}
+
+.legs-with-hands-for_box {
+    position: absolute;
+    top: 949px;
+    left: 477px;
+}
+
+.body-for_box {
+    position: absolute;
+    top: 1069px;
+    left: 473px;
+}
+
+.head-for_box {
+    position: absolute;
+    top: 1191px;
+    left: 480px;
+}
+
+.time {
+    position: absolute;
+    top: 1430px;
+    left: 136px;
+    font-size: 72px;
+    color: #FFDB13;
+    line-height: 102.5px;
+}
+
+.red-card_incanto {
+    position: absolute;
+    left: 648px;
+    top: 893px;
+}
+
+.logo-FOCUZEY {
+    position: absolute;
+    top: 1520px;
+    left: 121px;
+}
+
+.table-with-rabbit_1 {
+    position: absolute;
+    top: 868px;
+    left: 831px;
+}
+
+.table-with-rabbit_2 {
+    position: absolute;
+    top: 1058px;
+    left: 638px;
+}
+
+.table-with-rabbit_3 {
+    position: absolute;
+    top: 1332px;
+    left: 426px;
+}
+
+.hat-for_vanish {
+    position: absolute;
+    top: 1401px;
+    left: 676px;
+}
+
+.date {
+    position: absolute;
+    line-height: 65px;
+    color: #FFDB13;
+    font-size: 72px;
+    left: 1102px;
+    top: 875px; 
+}
+
+.blue-card_rogazzo {
+    position: absolute;
+    top: 1022px;
+    left: 1146px;
+}
+
+.man-with-red_sheet {
+    position: absolute;
+    top: 1120px;
+    left: 929px;
+}
+
+.magician-boy-for_hat {
+    position: absolute;
+    top: 1146px;
+    left: 1197px;
+}
+
+.hat-for-magician_boy {
+    position: absolute;
+    top: 1230px;
+    left: 1154px;
+}
+
+.man-for_hat {
+    position: absolute;
+    top: 1289px;
+    left: 1122px; 
+    z-index: 99;
+}
+
+.hat-for_man {
+    position: absolute;
+    top: 1351px;
+    left: 1145px; 
+}
+
+.a-big_man {
+    position: absolute;
+    top: 1486px;
+    left: 1127px;
+}
+
+.sheet-for_train {
+    position: absolute;
+    top: 1654px;
+    left: 78.83px; 
+    z-index: 99;
+}
+
+.train {
+    position: absolute;
+    top: 1660px;
+    left: 173px; 
+}
+
+.hat-for_train {
+    position: absolute;
+    top: 2082px;
+    left: 183px;
+}
+
+.magic-wand-for_train {
+    position: absolute;
+    top: 2074px;
+    left: 351px;
+}
+
+.rabbit-for_train {
+    position: absolute;
+    top: 2068px;
+    left: 490px;
+}
+
+.dove-for_train {
+    position: absolute;
+    top: 2065px;
+    left: 645px;
+}
+
+.magic-wand-for-train_2 {
+    position: absolute;
+    top: 2066px;
+    left: 778px;
+}
+
+.magic-broom-for_train {
+    position: absolute;
+    top: 2068px;
+    left: 928px;
+}
+
+.door-for_magic {
+    position: absolute;
+    top: 2023px;
+    left: 1106px;
+}
+
+.door-for-magic_1 {
+    position: absolute;
+    top: 2023px;
+    left: 1213px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.container {
+    position: relative;
+    background-color: #202060;
+   
+}
+
+.title {
+    text-align: center;
+    font-size: 96px;
+    color: #FFDB13;
+    line-height: 142px;
+}
+
+.man-sitting-on_chair {
+    position: absolute;
+    top: 160px;
+    left: 83px;
+}
+
+.yellow-card_ilgiosso {
+    position: absolute; 
+    top: 165px;
+    left: 508px;
+}
+
+.main_magic__ball {
+    position: absolute;
+    top: 144px;
+    left: 836px;
+}
+
+.magic_wand_1 {
+    position: absolute;
+    top: 157px;
+    left: 1083px; vw
+}
+
+.star {
+    position: absolute;
+    top: 322px;
+    left: 1233px; 
+}
+
+.magic_wand_2 {
+    position: absolute;
+    top: 169px;
+    left: 1385px;
+}
+
+.red-card_ilmago {
+    position: absolute;
+    top: 149px;
+    left: 1651px;
+}
+
+.rabbit-for_hat {
+    position: absolute;
+    top: 399px;
+    left: 601px;
+    z-index: 99;
+}
+
+.hat-for_rabbit {
+    position: absolute;
+    top: 535px;
+    left: 533px;
+}
+
+.blue-card-lomagia {
+    position: absolute;
+    top: 436px;
+    left: 958px;
+}
+
+.hat-for_ears {
+    position: absolute;
+    top: 612px;
+    left: 1196px;
+}
+
+.ears-for_hat {
+    position: absolute;
+    top: 525px;
+    left: 1262px;
+}
+
+.hat-for_dove {
+    position: absolute;
+    top: 384px;
+    left: 1446px;
+}
+
+.dove-for_hat {
+    position: absolute;
+    top: 331px;
+    left: 1489px;
+}
+
+ */
