@@ -7,8 +7,11 @@
     font-family: 'Kurale', serif;
 }
 
+.date {
+    text-align: center;
+}
+
 body {
-    /* width: 1; */
     background-color: #202060;
 }
 
@@ -36,7 +39,9 @@ body {
     position: absolute; 
     top: 123px;
     left: 417px;
+    transition: 2s ease-in;
 }
+
 
 .main_magic__ball {
     position: absolute;
@@ -73,6 +78,8 @@ body {
     top: 288px;
     left: 480px;
     z-index: 99;
+    opacity: 0;
+    transition: 2s ease-out;
 }
 
 .hat-for_rabbit {
@@ -97,6 +104,8 @@ body {
     position: absolute;
     top: 373px;
     left: 930px;
+    opacity: 0;
+    transition: 2s ease-in;
 }
 
 .hat-for_dove {
@@ -109,6 +118,8 @@ body {
     position: absolute;
     top: 241px;
     left: 1085px;
+    opacity: 0;
+    transition: 2s ease-in-out;
 }
 
 .hat-for-magic_broom {
@@ -133,12 +144,15 @@ body {
     position: absolute;
     top: 570px;
     left: 827px;
+    opacity: 0;
+    transition: 1s ease-in;
 }
 
 .rabbit-for_hat__2 {
     position: absolute;
-    top: 633px;
-    left: 862px;
+    top: 624px;
+    left: 867px;
+    opacity: ;
 }
 
 .boy-without_hat {
@@ -311,6 +325,7 @@ body {
     position: absolute;
     top: 2082px;
     left: 183px;
+    opacity: 1;
 }
 
 .magic-wand-for_train {
@@ -343,16 +358,995 @@ body {
     left: 928px;
 }
 
-.door-for_magic {
+.wrap_door__1 {
     position: absolute;
     top: 2023px;
     left: 1106px;
+    width: 102.4px;
+    height: 215.92px;
+    background-color: #2B5ADC;
+    border-radius: 10px;
+}
+
+.wrap_door__2 {
+    position: absolute;
+    top: 2023px;
+    left: 1213.53px;
+    width: 102.4px;
+    height: 215.92px;
+    background-color: #2B5ADC;
+    border-radius: 10px;
+}
+
+.door-for_magic {
+    position: absolute;
+    top: 4.7px;
+    left: 3.91px;
 }
 
 .door-for-magic_1 {
     position: absolute;
-    top: 2023px;
-    left: 1213px;
+    top: 4.7px;
+    left: 3.91px;
+}
+
+@media (min-width: 320px) and (max-width: 578px) {
+
+    body {
+        background-color: #202060;
+    }
+    
+    .container {
+        position: relative;
+        background-color: #202060;
+        width: 320px;
+        min-height: 700px;
+    }   
+    
+    .title {
+        text-align: center;
+        font-size: 28px;
+        color: #FFDB13;
+        line-height: 41px;
+    }
+    
+    .man-sitting-on_chair {
+        position: absolute;
+        top: 43px;
+        left: 8px;
+        width: 204.35px;
+        height: 264px;
+    }
+    
+    .yellow-card_ilgiosso {
+        position: absolute; 
+        top: 48px;
+        left: 117px;
+        width: 37.31px;
+        height: 52px;
+    }
+    
+    .main_magic__ball {
+        position: absolute;
+        top: 41px;
+        left: 183px;
+        width: 49.73px;
+        height: 63px;
+    }
+    
+    .magic_wand_1 {
+        position: absolute;
+        top: 39px;
+        left: 240px;
+        width: 63.73px;
+        height: 46.15; 
+    }
+    
+    .star {
+        position: absolute;
+        top: 125px;
+        left: 194.85px;
+        width: 50.18px;
+        height: 50.04px; 
+    }
+    
+    .magic_wand_2 {
+        position: absolute;
+        top: 321px;
+        left: 20px;
+        width: 37px;
+        height: 47px;
+    }
+    
+    .red-card_ilmago {
+        position: absolute;
+        top: 320px;
+        left: 76px;
+        width: 37.31px;
+        height: 52px;
+    }
+    
+    .rabbit-for_hat {
+        position: absolute;
+        top: 108px;
+        left: 132px;
+        z-index: 99;
+        width: 53.37px;
+        /* height: 79.42; */
+    }
+    
+    .hat-for_rabbit {
+        position: absolute;
+        top: 144.46px;
+        left: 114.15px;
+        width: 87.5px;
+        /* height: 51.08px; */
+    }
+    
+    .blue-card-lomagia {
+        position: absolute;
+        top: 129px;
+        left: 255px;
+        width: 37.31px;
+        height: 52px;
+    }
+    
+    .hat-for_ears {
+        position: absolute;
+        top: 422.7px;
+        left: 121.47px;
+        width: 67.66px;
+        height: 53.3px;
+    }
+    
+    .ears-for_hat {
+        position: absolute;
+        top: 398px;
+        left: 140.17px;
+        width: 30.06px;
+        height: 36.62px;
+    }
+    
+    .hat-for_dove {
+        position: absolute;
+        top: 325px;
+        left: 115px;
+        width: 100px;
+        /* height: 41.67px; */
+    }
+    
+    .dove-for_hat {
+        position: absolute;
+        top: 317px;
+        left: 132px;
+        width: 58.22px;
+        /* height: 60.68px; */
+    }
+    
+    .hat-for-magic_broom {
+        position: absolute;
+        top: 197.47px;
+        left: 185px;
+        width: 80.29px;
+        /* height: 41.23px; */
+    }
+    
+    .magic-broom-for_hat {
+        position: absolute;
+        top: 196px;
+        left: 210px;
+        width: 63px;
+        /* height: 92px; */
+    }
+    
+    .white-card-imperro {
+        position: absolute;
+        top: 254px;
+        left: 243px;
+        width: 37.31px;
+        height: 52px;
+    }
+    
+    .hat-for_rabbit__2 {
+        position: absolute;
+        top: 376px;
+        left: 6px;
+        width: 76.37px;
+       
+        /* height: 40.03px; */
+    }
+    
+    .rabbit-for_hat__2 {
+        position: absolute;
+        top: 393.37px;
+        left: 27.37px;
+        width: 86.37px;
+        height: 105.95px;
+    }
+    
+    .boy-without_hat {
+        position: absolute;
+        top: 360.23px;
+        left: 202px;
+        width: 104.68px;
+        height: 123.24px;
+    }
+    
+    .hat-of-boy {
+        position: absolute;
+        left: 215px;
+        top: 322px;
+        width: 78.08px;
+        height: 51.46px;
+    }
+    
+    .chair-for_man {
+        position: absolute;
+        left: 27.88px;
+        top: 125.37px;
+        /* display: none; */
+        width: 95.68px;
+        height: 177.52px;
+        transition: 2s ease-in;
+        opacity: 0;
+    }
+    
+    .appearance_of__chair {
+        /* display: block; */
+        opacity: 1;
+    }
+    
+    .box-for_women {
+        position: absolute;
+        top: 501px;
+        left: 8px;
+        width: 191.26px;
+        height: 364px;
+    }
+    
+    .legs-for_box {
+        position: absolute;
+        top: 507px;
+        left: 232.3px;
+        width: 39.45px;
+        height: 56.97px;
+    }
+    
+    .legs-with-hands-for_box {
+        position: absolute;
+        top: 574.32px;
+        left: 226.41px;
+        width: 52.08px;
+        height: 56.96px;
+    }
+    
+    .body-for_box {
+        position: absolute;
+        top: 645px;
+        left: 223px;
+        width: 53.76px;
+        height: 57.35px;
+    }
+    
+    .head-for_box {
+        position: absolute;
+        top: 716.53px;
+        left: 228.09px;
+        width: 48.68px;
+        height: 52.89px;
+    }
+    
+    .time {
+        position: absolute;
+        top: 835px;
+        left: 10px;
+        font-size: 28px;
+        color: #FFDB13;
+        line-height: 102.5px;
+    }
+    
+    .red-card_incanto {
+        position: absolute;
+        left: 119px;
+        top: 873px;
+        width: 37.31px;
+        height: 52px;
+    }
+    
+    .logo-FOCUZEY {
+        position: absolute;
+        top: 904px;
+        left: 10px;
+        width: 72.93px;
+        height: 45.58px;
+    }
+    
+    .table-with-rabbit_1 {
+        position: absolute;
+        top: 851px;
+        left: 207px;
+        width: 93.66px;
+        height: 98.37px;
+    }
+    
+    .table-with-rabbit_2 {
+        position: absolute;
+        top: 936px;
+        left: 114px;
+        width: 90.45px;
+        height: 111.73px;
+    }
+    
+    .table-with-rabbit_3 {
+        position: absolute;
+        top: 1034px;
+        left: 11px;
+        width: 91.83px;
+        height: 106.97px;
+    }
+    
+    .hat-for_vanish {
+        position: absolute;
+        top: 963px;
+        left: 9.54px;
+        width: 81.25px;
+        height: 64px;
+    }
+    
+    .date {
+        position: absolute;
+        line-height: 26.5px;
+        color: #FFDB13;
+        font-size: 28px;
+        left: 221px;
+        top: 788px; 
+    }
+    
+    .blue-card_rogazzo {
+        position: absolute;
+        top: 960px;
+        left: 247px;
+        width: 37.31px;
+        height: 52px;
+    }
+    
+    .man-with-red_sheet {
+        position: absolute;
+        top: 1152px;
+        left: 24px;
+        width: 124.42px;
+        height: 308px;
+    }
+    
+    .magician-boy-for_hat {
+        position: absolute;
+        top: 1013px;
+        left: 216.91px;
+        /* width: 51.17px; */
+        height: 79.42px;
+    }
+    
+    .hat-for-magician_boy {
+        position: absolute;
+        top: 1060.34px;
+        left: 192.53px;
+        width: 83.78px;
+        height: 43.92px;
+    }
+    
+    .man-for_hat {
+        position: absolute;
+        top: 1049px;
+        left: 119.21px; 
+        z-index: 99;
+        /* width: 56.85px; */
+        height: 73.46px;
+    }
+    
+    .hat-for_man {
+        position: absolute;
+        top: 1068.21px;
+        left: 128px;
+        width: 81.46px;
+        /* height: 42.7px;  */
+    }
+    
+    .a-big_man {
+        position: absolute;
+        top: 1135px;
+        left: 171px;
+        width: 121.39px;
+        height: 304px;
+    }
+    
+    .sheet-for_train {
+        position: absolute;
+        top: 1467.55px;
+        left: 7px; 
+        z-index: 99;
+        width: 299px;
+        height: 112.96px;
+    }
+    
+    .train {
+        position: absolute;
+        top: 1471.67px;
+        left: 31px;
+        width: 249.4px;
+        height: 108.85px; 
+    }
+    
+    .hat-for_train {
+        position: absolute;
+        top: 1602.6px;
+        left: 25px;
+        width: 51.65px;
+        height: 58.13px;
+    }
+    
+    .magic-wand-for_train {
+        position: absolute;
+        top: 1599.8px;
+        left: 79.46px;
+        /* width: 15.32px; */
+        height: 45.96px;
+    }
+    
+    .rabbit-for_train {
+        position: absolute;
+        top: 1598px;
+        left: 124.59px;
+        width: 36.32px;
+        height: 45.78px;
+    }
+    
+    .dove-for_train {
+        position: absolute;
+        top: 1597px;
+        left: 174.96px;
+        width: 43.14px;
+        height: 44.96px;
+    }
+    
+    .magic-wand-for-train_2 {
+        position: absolute;
+        top: 1597.82px;
+        left: 218px;
+        /* width: 14.34px; */
+        height: 45.79px;
+    }
+    
+    .magic-broom-for_train {
+        position: absolute;
+        top: 1597.82px;
+        left: 266.48px;
+        /* width: 14.34px; */
+        height: 45.79px;
+    }
+    
+    .wrap_door__1 {
+        position: absolute;
+        top: 1661px;
+        left: 32.7px;
+        width: 124.73px;
+        height: 263px;
+        background-color: #2B5ADC;
+        border-radius: 10px;
+    }
+    
+    .wrap_door__2 {
+        position: absolute;
+        top: 1661px;
+        left: 162.73px;
+        width: 124.73px;
+        height: 263px;
+        background-color: #2B5ADC;
+        border-radius: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .door-for_magic {
+        position: absolute;
+        width: 115.19px;
+        height: 251.56px;
+        top: 5.72px;
+        left: 4.77px;
+    }
+    
+    .door-for-magic_1 {
+        position: absolute;
+        width: 115.19px;
+        height: 251.56px;
+        top: 5.72px;
+        left: 4.77px;
+    }
+}
+
+@media (min-width: 579px) and (max-width: 768px) {
+
+    body {
+        background-color: #202060;
+    }
+    
+    .container {
+        position: relative;
+        background-color: #202060;
+        width: 579px;
+        min-height: 700px;
+    }   
+    
+    .title {
+        text-align: center;
+        font-size: 40px;
+        color: #FFDB13;
+        line-height: 59px;
+    }
+    
+    .man-sitting-on_chair {
+        position: absolute;
+        top: 71.84px;
+        left: 14.48px;
+        width: 369.74px;
+        height: 477.91px;
+    }
+    
+    .yellow-card_ilgiosso {
+        position: absolute; 
+        top: 80.89px;
+        left: 211.7px;
+        width: 67.51px;
+        height: 94.13px;
+    }
+    
+    .main_magic__ball {
+        position: absolute;
+        top: 68.22px;
+        left: 331.12px;
+        width: 89.98px;
+        height: 114.04px;
+    }
+    
+    .magic_wand_1 {
+        position: absolute;
+        top: 64.6px;
+        left: 443.29px;
+        width: 115.15px;
+        /* height: 83.53px;  */
+    }
+    
+    .star {
+        position: absolute;
+        top: 211.09px;
+        left: 352.55px;
+        width: 83.91px;
+        /* height: 68.85px;  */
+    }
+    
+    .magic_wand_2 {
+        position: absolute;
+        top: 575.08px;
+        left: 36.19px;
+        /* width: 16.32px; */
+        height: 111.16px;
+    }
+    
+    .red-card_ilmago {
+        position: absolute;
+        top: 581px;
+        left: 134.29px;
+        width: 67.51px;
+        height: 94.13px;
+    }
+    
+    .rabbit-for_hat {
+        position: absolute;
+        top: 189.5px;
+        left: 241.1px;
+        z-index: 99;
+        width: 96.57px;
+        /* height: 79.42; */
+    }
+    
+    .hat-for_rabbit {
+        position: absolute;
+        top: 266px;
+        left: 219.89px;
+        width: 134.82px;
+        /* height: 51.08px; */
+    }
+    
+    .blue-card-lomagia {
+        position: absolute;
+        top: 227.52px;
+        left: 461.39px;
+        width: 67.51px;
+        height: 94.13px;
+    }
+    
+    .hat-for_ears {
+        position: absolute;
+        top: 759.17px;
+        left: 219.79px;
+        width: 122.43px;
+        height: 96.49px;
+    }
+    
+    .ears-for_hat {
+        position: absolute;
+        top: 714.46px;
+        left: 253.52px;
+        width: 54.39px;
+        height: 66.29px;
+    }
+    
+    .hat-for_dove {
+        position: absolute;
+        top: 609px;
+        left: 249.06px;
+        width: 143.86px;
+        /* height: 41.67px; */
+    }
+    
+    .dove-for_hat {
+        position: absolute;
+        top: 593.83px;
+        left: 265.83px;
+        width: 90.34px;
+    /* height: 60.68px;
+        /* height: 60.68px; */
+    }
+    
+    .hat-for-magic_broom {
+        position: absolute;
+        top: 357.6px;
+        left: 318.67px;
+        width: 130.81px;
+        /* height: 41.23px; */
+    }
+    
+    .magic-broom-for_hat {
+        position: absolute;
+        top: 339.07px;
+        left: 364.64px;
+        width: 130.89px;
+        height: 78.52px;
+    }
+    
+    .white-card-imperro {
+        position: absolute;
+        top: 453px;
+        left: 439px;
+        width: 67.51px;
+        height: 94.13px;
+    }
+    
+    .hat-for_rabbit__2 {
+        position: absolute;
+        top: 674.64px;
+        left: 10.86px;
+        width: 138.23px;
+        /* height: 40.03px; */
+    }
+    
+    .rabbit-for_hat__2 {
+        position: absolute;
+        top: 727px;
+        left: 51.37px;
+        /* width: 97.24px; */
+        height: 144.7px;
+    }
+    
+    .boy-without_hat {
+        position: absolute;
+        top: 646.09px;
+        left: 365.49px;
+        width: 189.4px;
+        height: 223.1px;
+    }
+    
+    .hat-of-boy {
+        position: absolute;
+        left: 389px;
+        top: 575px;
+        width: 141.27px;
+        height: 93.15px;
+    }
+    
+    .chair-for_man {
+        position: absolute;
+        left: 50.44px;
+        top: 226.96px;
+        /* display: none; */
+        width: 173.12px;
+        height: 321.36px;
+        transition: 2s ease-in;
+        opacity: 0;
+    }
+    
+    .appearance_of__chair {
+        /* display: block; */
+        opacity: 1;
+    }
+    
+    .box-for_women {
+        position: absolute;
+        top: 900.91px;
+        left: 14.47px;
+        width: 346.05px;
+        height: 658.91px;
+    }
+    
+    .legs-for_box {
+        position: absolute;
+        top: 911.77px;
+        left: 420.32px;
+        width: 71.38px;
+        height: 103.12px;
+    }
+    
+    .legs-with-hands-for_box {
+        position: absolute;
+        top: 1033.64px;
+        left: 409.66px;
+        width: 94.24px;
+        height: 103.12px;
+    }
+    
+    .body-for_box {
+        position: absolute;
+        top: 1161.59px;
+        left: 405.09px;
+        width: 97.27px;
+        height: 103.82px;
+    }
+    
+    .head-for_box {
+        position: absolute;
+        top: 1291.07px;
+        left: 412.7px;
+        width: 88.07px;
+        height: 95.75px;
+    }
+    
+    .time {
+        position: absolute;
+        top: 1570.69px;
+        left: 30.65px;
+        font-size: 40px;
+        color: #FFDB13;
+        line-height: 82.5px;
+    }
+    
+    .red-card_incanto {
+        position: absolute;
+        left: 215.32px;
+        top: 1574.34px;
+        width: 67.51px;
+        height: 94.13px;
+    }
+    
+    .logo-FOCUZEY {
+        position: absolute;
+        top: 1645px;
+        left: 26.2px;
+        width: 120.93px;
+        height: 75.58px;
+    }
+    
+    .table-with-rabbit_1 {
+        position: absolute;
+        top: 1523.73px;
+        left: 374.54px;
+        width: 169.47px;
+        height: 178.07px;
+    }
+    
+    .table-with-rabbit_2 {
+        position: absolute;
+        top: 1693.73px;
+        left: 223.46px;
+        width: 163.65px;
+        height: 202.26px;
+    }
+    
+    .table-with-rabbit_3 {
+        position: absolute;
+        top: 1874.35px;
+        left: 25.28px;
+        width: 166.15px;
+        height: 193.64px;
+    }
+    
+    .hat-for_vanish {
+        position: absolute;
+        top: 1737.23px;
+        left: 17.26px;
+        width: 147px;
+        height: 115.85px;
+    }
+    
+    .date {
+        position: absolute;
+        line-height: 36.5px;
+        color: #FFDB13;
+        font-size: 40px;
+        left: 403.41px;
+        top: 1420.44px; 
+        text-align: center;
+    }
+    
+    .blue-card_rogazzo {
+        position: absolute;
+        top: 1731.8px;
+        left: 446.92px;
+        width: 67.51px;
+        height: 94.13px;
+    }
+    
+    .man-with-red_sheet {
+        position: absolute;
+        top: 2079.36px;
+        left: 43.43px;
+        width: 225.12px;
+        height: 557.54px;
+    }
+    
+    .magician-boy-for_hat {
+        position: absolute;
+        top: 1827.74px;
+        left: 392.47px;
+        /* width: 51.17px; */
+        height: 143.75px;
+    }
+    
+    .hat-for-magician_boy {
+        position: absolute;
+        top: 1908.44px;
+        left: 348.56px;
+        width: 151.6px;
+        height: 79.49px;
+    }
+    
+    .man-for_hat {
+        position: absolute;
+        top: 1883.85px;
+        left: 208.42px; 
+        z-index: 99;
+        /* width: 56.85px; */
+        height: 132.97px;
+    }
+    
+    .hat-for_man {
+        position: absolute;
+        top: 1918.77px;
+        left: 225.59px;
+        width: 147.43px;
+        /* height: 42.7px;  */
+    }
+    
+    .a-big_man {
+        position: absolute;
+        top: 2048.58px;
+        left: 309.4px;
+        width: 219.65px;
+        height: 550.3px;
+    }
+    
+    .sheet-for_train {
+        position: absolute;
+        top: 2650.55px;
+        left: 12.67px; 
+        z-index: 99;
+        width: 541px;
+        height: 204.48px;
+    }
+    
+    .train {
+        position: absolute;
+        top: 2658.02px;
+        left: 56.23px;
+        width: 451.25px;
+        height: 197.04px; 
+    }
+    
+    .hat-for_train {
+        position: absolute;
+        top: 2895.03px;
+        left: 45.23px;
+        width: 93.45px;
+        height: 105.23px;
+    }
+    
+    .magic-wand-for_train {
+        position: absolute;
+        top: 2889.96px;
+        left: 143.78px;
+        /* width: 15.32px; */
+        height: 80px;
+    }
+    
+    .rabbit-for_train {
+        position: absolute;
+        top: 2886.79px;
+        left: 225.43px;
+        width: 65.71px;
+        height: 82.88px;
+    }
+    
+    .dove-for_train {
+        position: absolute;
+        top: 2884.9px;
+        left: 316.58px;
+        width: 78.05px;
+        height: 81.39px;
+    }
+    
+    .magic-wand-for-train_2 {
+        position: absolute;
+        top: 2885.52px;
+        left: 394.43px;
+        /* width: 14.34px; */
+        height: 80.17px;
+    }
+    
+    .magic-broom-for_train {
+        position: absolute;
+        top: 2886.39px;
+        left: 482.16px;
+        /* width: 14.34px; */
+        height: 82.88px;
+    }
+    
+    .door-for_magic {
+        position: absolute;
+        top: 12.38px;
+        left: -0.63px;
+        margin-left: 8px;
+        width: 208.43px;
+        height: 455.37px
+        
+    }
+
+    .wrap_door__1 {
+        /* position: absolute; */
+        position: absolute;
+        top: 3000.75px;
+        left: 59.17px;
+        width: 225.68px;
+        height: 476.08px;
+        border-radius: 20px;
+        background-color: #2B5ADC;
+    }
+
+    .wrap_door__2 {
+        position: absolute;
+        top: 3000.75px;
+        left: 294.45px;
+        width: 225.68px;
+        height: 476.08px;
+        border-radius: 20px;
+        background-color:#2B5ADC;
+        margin-bottom: 50px;
+    }
+
+    .door-for-magic_1 {
+        position: absolute;
+        top: 12.38px;
+        left: -0.63px;
+        margin-left: 8px;
+        width: 208.43px;
+        height: 455.37px
+
+    }
+    
+    .door-for-magic_1 {
+        /* position: absolute;
+        top: 3000.75px;
+        left: 294.45px; */
+        /* width: 225.68px;
+        height: 476.08px; */
+        /* margin-bottom: 50px; */
+    }
 }
 
 
