@@ -280,14 +280,21 @@ function click_visiable_man__hat() {
     }  
 }
 let opening = 0;
-
+let prev_none = 0;
 function click_for_opening__door() {
+    myObjects = document.getElementsByClassName('elements_for__door');
     if(opening == 0) {
+        do{
+            number = Math.floor(Math.random() * 5 );
+        } while (number == prev_none);
+        myObjects[number].style.display = "block";
         document.getElementById('opening_door').classList.add("door-for_magic__click");
         opening = 1;
      } else {
         document.getElementById("opening_door").classList.remove("door-for_magic__click"); 
         opening = 0;
+        setTimeout('myObjects['+number+'].style.display = "none";', 300);
+        prev_none = number;
     }  
 }
 

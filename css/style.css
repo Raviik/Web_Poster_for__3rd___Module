@@ -548,13 +548,23 @@ body {
     position: absolute;
     top: 4.7px;
     left: 3.91px;
+    z-index: 99;
 }
 
 .door-for-magic_1 {
+    z-index: 99;
     position: absolute;
     top: 4.7px;
     left: 3.91px;
     cursor: url("../img/1440/magic_wand_1.png"), pointer;
+}
+
+.elements_for__door {
+   width: 80px; 
+   position: absolute;
+   top: 35%;
+   z-index: 0;
+   display: none;
 }
 
 @media (min-width: 320px) and (max-width: 578px) {
@@ -1018,6 +1028,7 @@ body {
         height: 251.56px;
         top: 5.72px;
         left: 4.77px;
+        z-index: 99;
     }
     
     .door-for-magic_1 {
@@ -1026,6 +1037,7 @@ body {
         height: 251.56px;
         top: 5.72px;
         left: 4.77px;
+        z-index: 99;
     }
 }
 
