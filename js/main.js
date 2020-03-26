@@ -279,13 +279,14 @@ function click_visiable_man__hat() {
         man_hat = 0;
     }  
 }
+
 let opening = 0;
 let prev_none = 0;
 function click_for_opening__door() {
     myObjects = document.getElementsByClassName('elements_for__door');
     if(opening == 0) {
         do{
-            number = Math.floor(Math.random() * 5 );
+            number = Math.floor(Math.random() * 6 );
         } while (number == prev_none);
         myObjects[number].style.display = "block";
         document.getElementById('opening_door').classList.add("door-for_magic__click");
@@ -299,14 +300,21 @@ function click_for_opening__door() {
 }
 
 let opening_2 = 0;
-
+let prev_none_2 = 0;
 function click_for_opening__door_2() {
+    myObjects = document.getElementsByClassName('elements_for__door__2');
     if(opening_2 == 0) {
+        do{
+            number = Math.floor(Math.random() * 6 );
+        } while (number == prev_none_2);
+        myObjects[number].style.display = "block";
         document.getElementById('opening_door_2').classList.add("door-for_magic__click_2");
         opening_2 = 1;
      } else {
         document.getElementById("opening_door_2").classList.remove("door-for_magic__click_2"); 
         opening_2 = 0;
+        setTimeout('myObjects['+number+'].style.display = "none";', 300);
+        prev_none_2 = number;
     }  
 }
 

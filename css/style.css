@@ -567,6 +567,686 @@ body {
    display: none;
 }
 
+.elements_for__door__2 {
+    width: 80px; 
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    z-index: 0;
+    display: none;
+ }
+
+ #opacity_visiable {
+    background-color: #202060;
+ }
+
+ #visiable_container {
+    background-color: #202060;
+ }
+
+
+@media (min-width:1441px) and (max-width:1920px) {
+    
+    body {
+        background-color: #202060;
+    }
+    
+    .container {
+        position: relative;
+        background-color: #202060;
+        max-width: 1920px;
+        min-height: 900px;
+    }   
+    
+    .title {
+        text-align: center;
+        font-size: 92px;
+        color: #FFDB13;
+        line-height: 136px;
+    }
+    
+    .man-sitting-on_chair {
+        position: absolute;
+        top: 171.42px;
+        left: 155.77px;
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        width: 707.7px;
+        height: 914.31px;
+    }
+    
+    /* 
+    .man-sitting-on_chair:hover {
+        cursor: url("img/1440/magic_wand_1.svg"), pointer;
+    } */
+    
+    .yellow-card_ilgiosso {
+        position: absolute; 
+        top: 176.55px;
+        left: 538.73px;
+        transition: 2s ease-in;
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        width: 125.37px;
+        height: 174.72px;
+    }
+    
+    
+    .main_magic__ball {
+        position: absolute;
+        top: 157.46px;
+        left: 834.97px;
+        width: 186.19px;
+        height: 235.88px;
+    }
+    
+    .magic_wand_1 {
+        position: absolute;
+        top: 168.86px;
+        left: 1027.65px;
+        width: 194.09px;
+    }
+    
+    .star {
+        position: absolute;
+        top: 318px;
+        left: 1192.92px;
+        width: 126.06px;
+        /* height: 122.39px;  */
+    }
+    
+    .magic_wand_2 {
+        position: absolute;
+        top: 180.4px;
+        left: 1329.71px;
+        /* width: 27.7px; */
+        height: 188.62px; 
+    }
+    
+    .red-card_ilmago {
+        position: absolute;
+        top: 162.01px;
+        left: 1569.43px;
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        width: 125.37px;
+        height: 174.73px; 
+    }
+    
+    .rabbit-for_hat {
+        position: absolute;
+        top: 387px;
+        left: 623px;
+        z-index: 99;
+        opacity: 0;
+        transition: 2s ease-out;
+        width: 174.89px;
+        height: 260.24px; 
+    }
+    
+    .hat-for_rabbit {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 529.21px;
+        left: 586.25px;
+        width: 244.13px;
+    }
+    
+    .blue-card-lomagia {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 466px;
+        left: 945px;
+        width: 125.37px;
+        height: 174.72px; 
+    }
+    
+    .hat-for_ears {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 580px;
+        left: 1159px;
+        width: 216.86px;
+        height: 170.83px; 
+    }
+    
+    .ears-for_hat {
+        position: absolute;
+        top: 500.89px;
+        left: 1219.13px;
+        opacity: 0;
+        transition: 2s ease-in;
+        width: 96.33px;
+        height: 117.36px; 
+    }
+    
+    .hat-for_dove {
+        position: absolute;
+        top: 384.57px;
+        left: 1384.83px;
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        width: 266.11px;
+    }
+    
+    .dove-for_hat {
+        position: absolute;
+        top: 326.54px;
+        left: 1423px;
+        opacity: 0;
+        transition: 2s ease-in-out;
+        width: 194.88px;
+        height: 203.11px; 
+    }
+    
+    .hat-for-magic_broom {
+        position: absolute;
+        top: 723.7px;
+        left: 752.82px;
+        width: 248.04px;
+        /* height: 141.46px; */
+    }
+    
+    .magic-broom-for_hat {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 668px;
+        left: 840px;
+        width: 215.51px;
+        height: 207.48px;
+    }
+    
+    .white-card-imperro {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 934.78px;
+        left: 921.52px;
+        width: 125.37px;
+        height: 174.73px; 
+    }
+    
+    .hat-for_rabbit__2 {
+        position: absolute;
+        top: 750px;
+        left: 1057px;
+        opacity: 0;
+        transition: 1s ease-in;
+        width: 248.57px;
+    }
+    
+    .rabbit-for_hat__2 {
+        position: absolute;
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        top: 844.98px;
+        left: 1129px;
+        height: 260.24px;  
+    }
+    
+    .boy-without_hat {
+        position: absolute;
+        top: 726.3px;
+        left: 1394.38px;
+        width: 355.15px;
+        height: 418.14px; 
+    }
+    
+    .hat-of-boy {
+        position: absolute;
+        left: 1438.23px;
+        top: 594.61px;
+        width: 264.9px;
+        height: 174.58px; 
+    }
+    
+    .chair-for_man {
+        position: absolute;
+        left: 224.61px;
+        top: 456.71px;
+        /* display: none; */
+        transition: 2s ease-in;
+        opacity: 0;
+        width: 331.35px;
+        height: 614.82px;
+    }
+    
+    .appearance_of__chair {
+        /* display: block; */
+        opacity: 1;
+    }
+    
+    .box-for_women {
+        position: absolute;
+        top: 1111.1px;
+        left: 158.64px;
+        width: 402.4px;
+        height: 765.85px; 
+    }
+    
+    #another_man {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        opacity: 1;
+        transition: ease-in-out 1s;
+    }
+    
+    #another_man__2 {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        opacity: 0;
+        transition: ease-in-out 1s;
+    }
+    
+    #move_to__box {
+        position: absolute;
+        /* z-index: 9; */
+    }
+    
+    #toggable_women__1 {
+        
+        cursor: move;
+        z-index: 10;
+    }
+    
+    #toggable_women__2 {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        cursor: move;
+        z-index: 10;
+    }
+    
+    #toggable_women__3 {
+        
+        cursor: move;
+        z-index: 10;
+    }
+    
+    #toggable_women__4 {
+        
+        cursor: move;
+        z-index: 10;
+    }
+    
+    .legs-for_box {
+        position: absolute;
+        top: 1111.1px;
+        left: 632.28px;
+        width: 89.09px;
+        height: 128.65px; 
+    }
+    
+    .legs-with-hands-for_box {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 1263.13px;
+        left: 619px;
+        width: 117.62px;
+        height: 128.65px; 
+    }
+    
+    .body-for_box {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 1422.76px;
+        left: 613.27px;
+        width: 121.41px;
+        height: 129.52px;
+    }
+    
+    .head-for_box {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 1584px;
+        left: 622.78px;
+        width: 109.93px;
+        height: 119.45px;
+    }
+    
+    .time {
+        position: absolute;
+        top: 1904px;
+        left: 160px;
+        font-size: 92px;
+        color: #FFDB13;
+        line-height: 102.5px;
+    }
+    
+    .red-card_incanto {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        left: 845.61px;
+        top: 1189.27px;
+        width: 127.98px;
+        height: 177.83px;
+    }
+    
+    .logo-FOCUZEY {
+        position: absolute;
+        top: 1984.88px;
+        left: 160px;
+        width: 251.13px;
+        height: 156.96px;
+    }
+    
+    .table-with-rabbit_1 {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        transition: 0.5s;
+        position: absolute;
+        top: 1150.77px;
+        left: 1073px;
+        width: 315.4px;
+        height: 331.26px;
+    }
+    
+    .table-with-rabbit_2 {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        transition: 0.5s;
+        position: absolute;
+        top: 1405.93px;
+        left: 834.32px;
+        width: 310.09px;
+        height: 383.07px;
+    }
+    
+    .table-with-rabbit_3 {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        transition: 0.5s;
+        position: absolute;
+        top: 1742.12px;
+        left: 548.79px;
+        width: 313.21px;
+        height: 364.88px;
+    }
+    
+    .hat-for_vanish {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 1835.41px;
+        left: 881.66px;
+        width: 327.52px;
+        height: 258px;
+    }
+    
+    .date {
+        position: absolute;
+        line-height: 86.5px;
+        color: #FFDB13;
+        font-size: 92px;
+        left: 1439px;
+        top: 1169px; 
+        
+    }
+    
+    .blue-card_rogazzo {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 1366.22px;
+        left: 1526.36px;
+        width: 127.98px;
+        height: 177.82px;
+    }
+    
+    .door-for_magic__click {
+        transform: rotateY(80deg);
+    }
+    
+    #opening_door {
+        transform-origin: right center;
+        transition: 1s;
+    }
+    
+    .door-for_magic__click_2 {
+        transform: rotateY(-80deg);
+    }
+    
+    #opening_door_2 {
+        transform-origin: left center;
+        transition: 1s;
+    }
+    /* #opening_door__none {
+        transform-origin: none;
+        transition: none;
+    } */
+    
+    .man-with-red_sheet {
+        position: absolute;
+        top: 1498.26px;
+        left: 1225.78px;
+        width: 246.81px;
+        height: 610.98px;
+    }
+    
+    .magician-boy-for_hat {
+        position: absolute;
+        top: 1564.03px;
+        left: 1593.12px;
+        /* opacity: 0; */
+        width: 118.97px;
+        height: 184.65px;
+        transition: linear 1s;
+    }
+    
+    .dragging_hat {
+        position: absolute;
+        top: 2381px !important;
+        left: 292px !important;
+        z-index: 99;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        transform: scale(0.4);
+    }
+    
+    .hat-for-magician_boy {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 1652.09px;
+        left: 1529.69px;
+        width: 194.78px;
+        height: 102.1px;
+    }
+    
+    .man-for_hat {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 1713.58px;
+        left: 1490px; 
+        z-index: 99;
+        width: 135.94px;
+        height: 175.63px;
+    }
+    
+    .hat-for_man {
+        position: absolute;
+        top: 1795.67px;
+        left: 1520.72px; 
+        transition: linear 1s;
+        /* width: 194.78px; */
+        height: 117.1px;
+    }
+    
+    .a-big_man {
+        position: absolute;
+        top: 1975.15px;
+        left: 1475.7px;
+        width: 256.25px;
+        height: 641.7px;
+    }
+    
+    .sheet-for_train {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 2169.78px;
+        left: 72px; 
+        z-index: 999;
+        width: 1398.08px;
+        height: 528.17px;
+    }
+    
+    .train {
+        position: absolute;
+        top: 2189px;
+        left: 197.73px;
+        width: 1166.14px;
+        height: 508.94px; 
+    }
+    
+    .hat-for_train {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 2777.98px;
+        left: 217.35px;
+        opacity: 1;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        width: 210.91px;
+        height: 237.38px;
+    }
+    
+    .dragging_wand {
+        position: absolute;
+        top: 2400px !important;
+        left: 464px !important;
+        z-index: 99;
+        transform: scale(0.5);
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+    }
+    
+    .magic-wand-for_train {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 2766.55px;
+        left: 439.15px;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        /* width: 62.54px; */
+        height: 162.67px;
+    }
+    
+    .rabbit-for_train {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 2759.41px;
+        left: 624px;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        width: 148.31px;
+        height: px;
+    }
+    
+    .dragging_rabbit {
+        position: absolute;
+        top: 2386px;
+        left: 624px;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        transform: scale(0.5);
+        z-index: 99;
+    }
+    
+    .dove-for_train {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 2755.12px;
+        left: 829.73px;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        width: 176.16px;
+        height: px;
+    }
+    
+    .dragging_dove {
+        position: absolute;
+        top: 2380px;
+        left: 777px;
+        z-index: 99;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        transform: scale(0.44);
+    }
+     
+    .dragging_wand__2 {
+        position: absolute; 
+        top: 2395px !important;
+        left: 923px !important;
+        z-index: 99;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        transform: scale(0.6);
+    }
+       
+    
+    .magic-wand-for-train_2 {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 2756.55px;
+        left: 1005.43px;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        width: 179.32px;
+        /* height: 126.71px; */
+    }
+    
+    .dragging_broom {
+        position: absolute;
+        top: 2384px !important;
+        left: 1110px !important;
+        z-index: 99;
+        transform: scale(0.54);
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+    }
+    
+    .magic-broom-for_train {
+        position: absolute;
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        top: 2758.49px;
+        left: 1203.43px;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        width: px;
+        height: 186.97px;
+    }
+    
+    .wrap_door__1 {
+        position: absolute;
+        top: 2698px;
+        left: 1465.27px;
+        width: 135.58px;
+        height: 285.88px;
+        background-color: #2B5ADC;
+        border-radius: 10px;
+    }
+    
+    .wrap_door__2 {
+        position: absolute;
+        top: 2698px;
+        left: 1606.61px;
+        width: 135.58px;
+        height: 285.88px;
+        background-color: #2B5ADC;
+        border-radius: 10px;
+    }
+    
+    .door-for_magic {
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        position: absolute;
+        top: 4.7px;
+        left: 3.91px;
+        z-index: 99;
+        width: 125.21px;
+        height: 273.44px;
+    }
+    
+    .door-for-magic_1 {
+        z-index: 99;
+        position: absolute;
+        top: 4.7px;
+        left: 3.91px;
+        cursor: url("../img/1440/magic_wand_1.png"), pointer;
+        width: 125.21px;
+        height: 273.44px;
+    }
+    
+    .elements_for__door {
+       width: 80px; 
+       position: absolute;
+       top: 35%;
+       z-index: 0;
+       display: none;
+    }
+    
+    .elements_for_door__2 {
+        width: 80px; 
+        position: absolute;
+        left: 15%;
+        top: 35%;
+        z-index: 0;
+        display: none;
+     }
+    
+}
+
 @media (min-width: 320px) and (max-width: 578px) {
 
     body {
