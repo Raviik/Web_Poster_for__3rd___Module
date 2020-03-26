@@ -1252,7 +1252,57 @@ body {
     body {
         background-color: #202060;
     }
+    .dragging_broom {
+        position: absolute;
+        top: 1510px !important;
+        left: 226px !important;
+        z-index: 99;
+        transform: scale(0.54);
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+    }
+
+    .dragging_dove {
+        top: 1510px !important;
+        left: 152px !important;
+        z-index: 99;
+        transform: scale(0.4);
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+    }
+
+    .dragging_rabbit {
+        top: 1510px !important;
+        left: 120px !important;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        transform: scale(0.45);
+        z-index: 99;   
+    }
+
+    .dragging_wand {
+        position: absolute;
+        top: 1511px !important;
+         left: 82px !important;
+        z-index: 99;
+        transform: scale(0.5);
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+    }
+
+    .dragging_wand__2 {
+        position: absolute;
+        top: 1511px !important;
+        left: 182px !important;
+        z-index: 99;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.64) 1s;
+        transform: scale(0.5);
+    }
     
+    .dragging_hat { 
+        position: absolute;
+        top: 1512px !important;
+        left: 53px !important;
+        z-index: 99;
+        transition: cubic-bezier(0.25, 0.1, 0.2, 0.54) 1s;
+        transform: scale(0.46);
+    }
     .container {
         position: relative;
         background-color: #202060;
